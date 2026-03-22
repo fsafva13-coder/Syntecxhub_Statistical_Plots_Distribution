@@ -1,0 +1,28 @@
+DISTRIBUTION ANALYSIS — INTERPRETATION REPORT
+Generated: 2026-03-22 17:20:06
+============================================================
+
+SALARY
+----------------------------------------
+Annual salary across all three regions shows a moderately right-skewed distribution, driven primarily by a small number of high earners in each group. The East region commands the highest median salary with the tightest spread, indicating a more homogeneous workforce. South shows the widest spread, suggesting greater pay variation. Outliers were detected in all three regions — consistent with real-world salary data where executive compensation sits far above the general workforce.
+
+PERFORMANCE
+----------------------------------------
+Performance scores follow an approximately normal distribution across all regions, with East scoring the highest median and narrowest spread. This suggests East region employees perform more consistently and at a higher level. South shows the most variability, with a flatter distribution and more low performers. The near-zero skewness across all groups indicates performance is not systematically biased in either direction — a healthy sign for the evaluation system.
+
+EXPERIENCE
+----------------------------------------
+Years of experience is strongly right-skewed across all regions, which is expected in any workforce — most employees are relatively junior with a small number of long-tenured staff pulling the mean above the median. The East region has the longest average tenure, which aligns with its higher salary and performance scores. This pattern is characteristic of an exponential distribution, where the majority cluster near zero and the tail extends to the right.
+
+SATISFACTION
+----------------------------------------
+Job satisfaction varies meaningfully by region. North shows a left-skewed distribution — most employees are highly satisfied with few reporting low scores. South is approximately symmetric around the midpoint, suggesting a more polarised workforce. East is right-skewed, meaning most employees report lower satisfaction despite earning the highest salaries — a finding worth investigating further, as it may indicate high pressure or work-life balance issues in that region.
+
+
+OUTLIER SUMMARY
+----------------------------------------
+    variable  n_outliers  pct_outliers  skewness         direction
+      salary          16           2.7    -0.467 approx. symmetric
+ performance           9           1.5    -0.547       left-skewed
+  experience          36           6.0     2.192      right-skewed
+satisfaction           0           0.0    -0.028 approx. symmetric
